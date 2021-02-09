@@ -29,18 +29,18 @@ namespace Csharp_2021_4._4._4_UDatenfeldEindimensional
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.listBox1 = new System.Windows.Forms.ListBox();
+			this.lstAnzeige = new System.Windows.Forms.ListBox();
 			this.btnMinima = new System.Windows.Forms.Button();
 			this.lblAusgabe = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
-			// listBox1
+			// lstAnzeige
 			// 
-			this.listBox1.FormattingEnabled = true;
-			this.listBox1.Location = new System.Drawing.Point(13, 13);
-			this.listBox1.Name = "listBox1";
-			this.listBox1.Size = new System.Drawing.Size(101, 225);
-			this.listBox1.TabIndex = 0;
+			this.lstAnzeige.FormattingEnabled = true;
+			this.lstAnzeige.Location = new System.Drawing.Point(13, 13);
+			this.lstAnzeige.Name = "lstAnzeige";
+			this.lstAnzeige.Size = new System.Drawing.Size(101, 225);
+			this.lstAnzeige.TabIndex = 0;
 			// 
 			// btnMinima
 			// 
@@ -68,7 +68,7 @@ namespace Csharp_2021_4._4._4_UDatenfeldEindimensional
 			this.ClientSize = new System.Drawing.Size(269, 253);
 			this.Controls.Add(this.lblAusgabe);
 			this.Controls.Add(this.btnMinima);
-			this.Controls.Add(this.listBox1);
+			this.Controls.Add(this.lstAnzeige);
 			this.Name = "Form1";
 			this.Text = "Datenfeld, eindimensional";
 			this.ResumeLayout(false);
@@ -78,7 +78,7 @@ namespace Csharp_2021_4._4._4_UDatenfeldEindimensional
 
 		#endregion
 
-		private System.Windows.Forms.ListBox listBox1;
+		private System.Windows.Forms.ListBox lstAnzeige;
 		private System.Windows.Forms.Button btnMinima;
 		private System.Windows.Forms.Label lblAusgabe;
 	}
