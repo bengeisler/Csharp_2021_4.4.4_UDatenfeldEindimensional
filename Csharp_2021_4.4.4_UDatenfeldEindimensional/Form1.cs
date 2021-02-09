@@ -16,5 +16,10 @@ namespace Csharp_2021_4._4._4_UDatenfeldEindimensional
 		{
 			InitializeComponent();
 		}
+
+		private void btnMinima_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

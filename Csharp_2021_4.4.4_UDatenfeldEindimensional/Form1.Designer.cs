@@ -50,6 +50,7 @@ namespace Csharp_2021_4._4._4_UDatenfeldEindimensional
 			this.btnMinima.TabIndex = 1;
 			this.btnMinima.Text = "Minima";
 			this.btnMinima.UseVisualStyleBackColor = true;
+			this.btnMinima.Click += new System.EventHandler(this.btnMinima_Click);
 			// 
 			// lblAusgabe
 			// 
